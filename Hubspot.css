@@ -45,20 +45,16 @@ section{
   background-color: #EAF2F8;
 }
 .container-lightblue{
-  width: 80vw;
+  width: 60vw;
   height: 100%;
   margin: auto;
   }
-   .container-lightblue > .nav-left{
+  .navbar-left > span{
     float: left;
     height: 100%;
 }
   .container-lightblue > .nav-right{
     float: right;
-    width: 60%;
     height: 100%;
   }
-  li.lightblue{
-    height: 60%;
-
-  }
+  
