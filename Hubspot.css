@@ -31,3 +31,12 @@ nav::after{
   content: "";
   display: table;
 }
+section {
+  width: 100%;
+  height: 80px;
+}
+section.lightblue{
+  margin: auto;
+  background-color: #C7E7FF;
+  border: 1px solid black;
+}
