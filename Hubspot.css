@@ -37,12 +37,16 @@ nav::after{
 }
 section{
   margin: auto;
-  border: 1px solid black;
+  border: 1px solid #33475b;
   height: 80px;
   width: 100%;
   text-align: center;
   line-height: 80px;
+}
+.section{
   background-color: #EAF2F8;
+  height: 100%;
+  width:  100%;
 }
 .container-lightblue{
   width: 60vw;
@@ -57,4 +61,33 @@ section{
     float: right;
     height: 100%;
   }
-  
+  button{
+    display: inline-block;
+  }
+  span{
+    padding: 5px;
+  }
+  span.english{
+    border-right: 1px solid grey;
+    padding: 5px;
+  }
+  .container-white{
+    width: 60vw;
+    height: 100%;
+    margin: auto;
+    }
+
+  .navbar-left-white > *{
+    float: left;
+    height: 100%;
+  }
+  .navbar-right-white > span{
+    float: right;
+    height: 100%;
+  }
+  span.white{
+    padding-right: 30px;
+  }
+  .right-white{
+    margin-left: 50px;
+  }
