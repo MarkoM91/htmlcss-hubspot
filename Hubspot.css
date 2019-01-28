@@ -1,0 +1,27 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+nav{
+  height: 60px;
+  background-color: #3c4859;
+  width: 100%;
+  text-align: center;
+  line-height: 60px;
+  border-top: 3px solid orange;
+}
+.container{
+  width: 80vw;
+  height: 100%;
+  margin-left: 80px;
+}
+.navbar > ul > li{
+  float: left;
+  list-style-type: none;
+  padding-right: 50px;
+}
+nav::after{
+  clear: both;
+  content: "";
+  display: table;
+}
