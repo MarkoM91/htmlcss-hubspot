@@ -37,7 +37,6 @@ nav::after{
 }
 section{
   margin: auto;
-  border: 1px solid #33475b;
   height: 80px;
   width: 100%;
   text-align: center;
@@ -45,6 +44,7 @@ section{
 }
 .section{
   background-color: #EAF2F8;
+  border: 1px solid #33475b;
   height: 100%;
   width:  100%;
 }
@@ -90,4 +90,9 @@ section{
   }
   .right-white{
     margin-left: 50px;
+  }
+  .section-white{
+    border: 1px solid #33475b;
+    height: 100%;
+    width:  100%;
   }
