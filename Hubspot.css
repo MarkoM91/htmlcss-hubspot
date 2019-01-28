@@ -4,11 +4,15 @@
 }
 nav{
   height: 60px;
-  background-color: #3c4859;
   width: 100%;
   text-align: center;
   line-height: 60px;
   border-top: 3px solid orange;
+}
+.nav{
+  height: 100%;
+  width:100%;
+  background-color: #3c4859;
 }
 .container{
   width: 80vw;
@@ -31,12 +35,17 @@ nav::after{
   content: "";
   display: table;
 }
-section {
-  width: 100%;
-  height: 80px;
-}
-section.lightblue{
+section{
   margin: auto;
-  background-color: #C7E7FF;
   border: 1px solid black;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  line-height: 80px;
+  background-color: #EAF2F8;
 }
+.container-lightblue{
+  width: 80vw;
+  height: 100%;
+  margin: auto;
+  }
