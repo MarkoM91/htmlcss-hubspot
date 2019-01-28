@@ -49,3 +49,16 @@ section{
   height: 100%;
   margin: auto;
   }
+   .container-lightblue > .nav-left{
+    float: left;
+    height: 100%;
+}
+  .container-lightblue > .nav-right{
+    float: right;
+    width: 60%;
+    height: 100%;
+  }
+  li.lightblue{
+    height: 60%;
+
+  }
