@@ -13,12 +13,18 @@ nav{
 .container{
   width: 80vw;
   height: 100%;
-  margin-left: 80px;
-}
-.navbar > ul > li{
+  }
+.navbar > ul > *{
   float: left;
   list-style-type: none;
-  padding-right: 50px;
+  padding-right: 40px;
+  color: white;
+}
+
+.icon > i.fab{
+  color: orange;
+  height:50px;
+  width: 50px;
 }
 nav::after{
   clear: both;
