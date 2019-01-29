@@ -84,9 +84,20 @@ section{
   .navbar-right-white > span{
     float: right;
     height: 100%;
+    color: #3c4859;
   }
   span.white{
     padding-right: 30px;
+
+  }
+  span{
+    color: #3c4859;
+  }
+   #hubspot{
+    background-color: #ff7a59;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
   }
   .right-white{
     margin-left: 50px;
