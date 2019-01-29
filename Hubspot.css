@@ -67,6 +67,12 @@ section{
   }
   button{
     display: inline-block;
+    background-color: #ff7a59;
+    color: white;
+    padding: 5px;
+  }
+  div.block-down > *{
+    margin-bottom: 10px;
   }
   li.english{
     padding: 5px;
@@ -163,7 +169,6 @@ color: white;
 }
 .block{
   width: 60vw;
-  border: 1px solid black;
   margin: auto;
 }
 #block-img{
@@ -178,6 +183,7 @@ color: white;
 }
 .block1-right{
   width: 60%;
+  text-align: left;
 }
 .block1::after{
   clear: both;
@@ -190,12 +196,13 @@ color: white;
 }
 .block2{
   width: 100%;
-  border: 1px solid black;
+  margin-top: 20px;
+
 }
 .block2 > *{
   float: left;
   width: 33.3333%;
-  border: 1px solid black;
+
 }
 #2{
   width: 233px;
@@ -250,7 +257,6 @@ div.sky-blue1 >  p{
   width: 75%;
   text-align: center;
   margin: auto;
-  border: 1px solid black;
 }
 
  .container-2 > .row > * {
@@ -296,7 +302,6 @@ div.sky-blue1 >  p{
   float: left;
   width: 50%;
   text-align: left;
-  border: 1px solid black;
   padding: 30px;
   margin-top: 50px;
 }
@@ -320,17 +325,21 @@ div.sky-blue1 >  p{
 .down > .half-down{
   float: left;
   width: 50%;
-  border: 1px solid black;
   margin-top: 200px;
 }
 #cinese{
   border-radius: 50%;
-  height: 567px;
-  width: 375px;
+  height: 500px;
+  width: 390px;
   background-color: #f2547d;
+  text-align: center;
 }
 
 .lefthalf-down > *{
   padding: 30px 0 30px;
   text-align: left;
+  margin-right: 50px;
+}
+.righthalf-down{
+  text-align: center;
 }
