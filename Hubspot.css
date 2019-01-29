@@ -133,3 +133,15 @@ color: white;
             padding: 30px 50px 30px;
             border-radius: 5px;
   }
+.powerful{
+  width: 100%;
+  text-align: center;
+}
+.powerful > img{
+  width: 260px;
+  height: 194px;
+  margin-top: 100px;
+}
+.powerful > img, h2, p{
+  margin-bottom: 20px;
+}
