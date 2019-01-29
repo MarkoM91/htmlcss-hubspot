@@ -71,6 +71,9 @@ section{
     background-color: #ff7a59;
     color: white;
     padding: 5px;
+    border-radius: 5px;
+    box-shadow:  none;
+    border: none;
   }
   div.block-down > *{
     margin-bottom: 10px;
@@ -218,6 +221,17 @@ padding: 10px;
   width: 233px;
   height: 150px;
 }
+.bloc2-left{
+  margin-right: 5px;
+}
+.bloc2-center{
+  margin: 0 5px 0;
+}
+.bloc2-right{
+  margin-left: 5px;
+}
+
+
 div.sky-blue  {
 width: 100%;
 text-align: center;
@@ -262,6 +276,7 @@ div.sky-blue1 >  p{
   width: 55%;
   text-align: center;
   margin: auto;
+  margin-bottom: 50px;
 }
 .container-2{
   width: 75%;
@@ -402,5 +417,18 @@ section.blue{
   text-align: left;
   position: relative;
   padding: 10px;
-
+}
+button{
+  padding: 10px;
+}
+h4{
+  margin: 5px 0 5px;
+}
+#contact{
+  width: 174px;
+  height: 33px;
+  background-color: #E9EAEA;
+  color: #33475b;
+  margin-top:  10px;
+  border-radius: 5px;
 }
