@@ -107,9 +107,29 @@ section{
     height: 100%;
     width:  100%;
   }
-  .sky-blue  {
+  div.sky-blue  {
+width: 100%;
+text-align: left;
+padding: 100px;
+background-color: #279AF1;
+color: white;
+}
+  div.sky-blue > div.sky{
+  width: 40%;
 
-    position: absolute;
-    left: 0;
   }
-  .sky-blu
+  div.sky-blue > div.sky> h1{
+    font-size:  3.4375rem;
+    margin-bottom: 50px;
+  }
+  div.sky-blue > div.sky > p{
+          font-size:  1em;
+          margin-bottom: 50px;
+  }
+ #button-sky{
+            background-color: white;
+            margin-bottom: 50px;
+            color: #3c4859;
+            padding: 30px 50px 30px;
+            border-radius: 5px;
+  }
