@@ -37,21 +37,27 @@ section{
   margin: auto;
   width: 100%;
   }
+
 .section{
   height: 80px;
   line-height: 80px;
   background-color: #EAF2F8;
   border: 1px solid #33475b;
-  height: 100%;
   width:  100%;
   text-align: center;
-}
+  }
+  .section::after{
+    clear: both;
+    content: "";
+    display: table;
+  }
+
 .container-lightblue{
   width: 60vw;
   height: 100%;
   margin: auto;
   }
-  .navbar-left > span{
+  .navbar-left > *{
     float: left;
     height: 100%;
 }
