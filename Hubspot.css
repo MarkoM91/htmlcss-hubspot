@@ -305,7 +305,7 @@ div.sky-blue1 >  p{
   width:25%;
   text-align: center;
   padding: 10px;
-  
+
 
 }
 .box > img{
@@ -316,4 +316,21 @@ div.sky-blue1 >  p{
   clear: both;
   content: "";
   display: table;
+}
+.down > .half-down{
+  float: left;
+  width: 50%;
+  border: 1px solid black;
+  margin-top: 200px;
+}
+#cinese{
+  border-radius: 50%;
+  height: 567px;
+  width: 375px;
+  background-color: #f2547d;
+}
+
+.lefthalf-down > *{
+  padding: 30px 0 30px;
+  text-align: left;
 }
