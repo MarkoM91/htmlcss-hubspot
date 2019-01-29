@@ -121,7 +121,7 @@ section{
     text-align: center;
     margin: auto;
   }
-  .clearfix::after{
+  .navbar-right-white::after{
     clear: both;
     content: "";
     display: table;
