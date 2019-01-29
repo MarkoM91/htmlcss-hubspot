@@ -145,3 +145,26 @@ color: white;
 .powerful > img, h2, p{
   margin-bottom: 20px;
 }
+.block{
+  width: 60vw;
+  border: 1px solid black;
+  margin: auto;
+}
+#block-img{
+  width: 260px;
+  height: 194px;
+}
+.block1 > *{
+  float: left;
+}
+.block1-left{
+  width: 40%;
+}
+.block1-right{
+  width: 60%;
+}
+.block1::after{
+  clear: both;
+  content: "";
+  display: table;
+}
