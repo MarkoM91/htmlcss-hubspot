@@ -57,7 +57,7 @@ section{
     float: left;
     height: 100%;
 }
-  .container-lightblue > .nav-right{
+  .navbar-right > *{
     float: right;
     height: 100%;
   }
