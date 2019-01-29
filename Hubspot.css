@@ -170,4 +170,5 @@ color: white;
 }
 .nav-powerful > ul > li{
   float: left;
+  margin: 15px;
 }
