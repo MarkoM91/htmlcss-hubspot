@@ -18,7 +18,7 @@ nav{
   width: 80vw;
   height: 100%;
   }
-.navbar > ul > *{
+.navbar > nav > ul > *{
   float: left;
   list-style-type: none;
   padding-right: 40px;
@@ -37,12 +37,12 @@ nav::after{
 }
 section{
   margin: auto;
-  height: 80px;
   width: 100%;
   text-align: center;
-  line-height: 80px;
 }
 .section{
+  height: 80px;
+  line-height: 80px;
   background-color: #EAF2F8;
   border: 1px solid #33475b;
   height: 100%;
@@ -184,4 +184,21 @@ color: white;
 #2{
   width: 233px;
   height: 150px;
+}
+div.sky-blue  {
+width: 100%;
+text-align: center;
+padding: 100px;
+background-color: #279AF1;
+color: white;
+position: relative;
+display: inline-block;
+margin: auto;
+}
+
+
+.block2::after{
+  clear: both;
+  content: "";
+  display: table;
 }
