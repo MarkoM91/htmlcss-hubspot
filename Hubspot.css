@@ -16,7 +16,7 @@
   width: 80vw;
   height: 100%;
   }
-.navbar > nav > ul > *{
+.navbar >  ul > *{
   float: left;
   list-style-type: none;
   padding-right: 40px;
@@ -36,8 +36,7 @@ nav::after{
 section{
   margin: auto;
   width: 100%;
-  text-align: center;
-}
+  }
 .section{
   height: 80px;
   line-height: 80px;
@@ -45,6 +44,7 @@ section{
   border: 1px solid #33475b;
   height: 100%;
   width:  100%;
+  text-align: center;
 }
 .container-lightblue{
   width: 60vw;
@@ -266,4 +266,48 @@ div.sky-blue >  p{
   clear: both;
   content: "";
   display: table;
+}
+
+section.customers{
+  width: 100%;
+  text-align: center;
+  margin: auto;
+  border: 1px solid black;
+}
+section.customers > .customers-lefthalf{
+  width: 40%;
+  float: left;
+  border: 1px solid black;
+  text-align: left;
+}
+section.customers > div.customers-righthalf{
+  width: 60%;
+  float: left;
+  border: 1px solid black;
+  text-align: center;
+}
+section.customers::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+ .logo > *{
+  float: left;
+  width: 25%;
+}
+.logo::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+#customers-logo {
+  width: 25%;
+  height: 40px;
+  border: 1px solid black;
+  padding:  40px 0 40px;
+  text-align: center;
+}
+#customers-logo > img {
+height: 100%;
+width: 100%;
 }
