@@ -172,3 +172,16 @@ color: white;
   float: left;
   margin: 15px;
 }
+.block2{
+  width: 100%;
+  border: 1px solid black;
+}
+.block2 > *{
+  float: left;
+  width: 33.3333%;
+  border: 1px solid black;
+}
+#2{
+  width: 233px;
+  height: 150px;
+}
