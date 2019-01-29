@@ -288,7 +288,7 @@ div.sky-blue1 >  p{
   display: table;
 }
 .section-white1{
-  width: 70%;
+  width: 75%;
   margin: auto;
 }
 
@@ -299,4 +299,21 @@ div.sky-blue1 >  p{
   border: 1px solid black;
   padding: 30px;
   margin-top: 50px;
+}
+.box{
+  float: left;
+  width:25%;
+  text-align: center;
+  padding: 10px;
+  
+
+}
+.box > img{
+  height: 42px;
+  width:74px;
+}
+.righthalf::after{
+  clear: both;
+  content: "";
+  display: table;
 }
