@@ -168,3 +168,6 @@ color: white;
   content: "";
   display: table;
 }
+.nav-powerful > ul > li{
+  float: left;
+}
