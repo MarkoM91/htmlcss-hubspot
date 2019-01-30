@@ -128,7 +128,6 @@ section{
     height: 100%;
     color: #3c4859;
     float: right;
-    text-align: right;
   }
   .container-white-right::after {
     clear: both;
@@ -139,6 +138,9 @@ section{
     width: 16.6667%;
     height: 100%;
     float: left;
+    position: relative;
+    left: 40px;
+    list-style-type: none;
 }
 
   li.white{
