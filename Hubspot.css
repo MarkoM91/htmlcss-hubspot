@@ -55,17 +55,27 @@ section{
   }
 
 .container-lightblue{
-  width: 60vw;
+  width: 80%;
   height: 100%;
   margin: auto;
   }
-  .navbar-left > *{
+  .container-lightblue-left{
     float: left;
     height: 100%;
+    width: 60%;
+    text-align: left;
 }
-  .navbar-right > *{
+  .container-lightblue-left > span{
+    padding: 0 15px 0;
+}
+  .container-lightblue-right{
     float: right;
     height: 100%;
+    width: 40%;
+    text-align: right;
+  }
+  #sales{
+    border-left: 1px solid #3c4859;
   }
   button{
     display: inline-block;
