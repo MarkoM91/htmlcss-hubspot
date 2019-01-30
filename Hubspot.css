@@ -108,7 +108,7 @@ section{
     height: 100%;
     color: #3c4859;
   }
-   .container-white-right > ul > li{
+   .container-white-right > ul > *{
     float: right;
     height: 100%;
     color: #3c4859;
@@ -444,4 +444,25 @@ h4{
   color: #33475b;
   margin-top:  10px;
   border-radius: 5px;
+}
+.social{
+  width: 200px;
+  height: 38px;
+}
+.fab{
+  font-size: 5px;
+  color: grey;
+  float: left;
+}
+li > .fab{
+  width: 16.6667%;
+  float: left;
+}
+.container-languages{
+  width: 50%;
+  margin: auto;
+  border: 1px solid black;
+}
+.container-languages > *{
+  width: 16.6667%;
 }
