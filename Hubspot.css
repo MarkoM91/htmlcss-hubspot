@@ -81,25 +81,38 @@ section{
   li.english{
     padding: 5px;
   }
+  li.white > *{
+    float: right;
+  }
   li.english{
     border-right: 1px solid grey;
     padding: 5px;
     float: left;
   }
   .container-white{
-    width: 60vw;
+    width: 80%;
     height: 100%;
     margin: auto;
     }
 
-  .navbar-left-white > *{
+  .container-white-left{
+    width: 40%;
+    height: 100%;
+  }
+  .container-white-left > *{
     float: left;
     height: 100%;
   }
-  .navbar-right-white > ul > li{
+  .container-white-right {
+    width: 60%;
+    height: 100%;
+    color: #3c4859;
+  }
+   .container-white-right > ul > li{
     float: right;
     height: 100%;
     color: #3c4859;
+    width: 16.6667%;
   }
   li.white{
     padding-right: 30px;
