@@ -480,3 +480,32 @@ padding: 9px;
 i.fab{
   color: #cbd6e2;
 }
+.footer{
+  margin-top: 50px;
+  border-top: 1px solid white;
+  width: 60%
+  margin:auto;
+  text-align: center;
+}
+.footer > * {
+  margin-top: 40px;
+}
+.footer-left{
+  width: 50%;
+  float: left;
+  text-align: left;
+}
+.footer-right{
+  width: 50%;
+  float: right;
+  text-align: right;
+  }
+.footer::after{
+  clear: both;
+  content: "";
+  display: table;
+}
+ .footer-right-text > *{
+   padding: 15px;
+   font-size: 20px;
+ }
