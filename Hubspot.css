@@ -446,23 +446,35 @@ h4{
   border-radius: 5px;
 }
 .social{
-  width: 200px;
-  height: 38px;
+  width: 100%;
+  margin: auto;
+  border: 1px solid black;
+  margin-top: 10px;
+  text-align: center;
 }
-.fab{
-  font-size: 5px;
-  color: grey;
-  float: left;
+.social::after{
+  clear: both;
+  content: "";
+  display: table;
 }
-li > .fab{
-  width: 16.6667%;
-  float: left;
+.social > ul > li{
+width: 16.6667%;
+height: 100%;
+float: left;
+list-style-type: none;
+text-align: center;
 }
 .container-languages{
   width: 50%;
-  margin: auto;
   border: 1px solid black;
+  margin: auto;
 }
 .container-languages > *{
   width: 16.6667%;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 5px;
+}
+i.fab{
+  color: #cbd6e2;
 }
