@@ -93,17 +93,7 @@ section{
   div.block-down > *{
     margin-bottom: 10px;
   }
-  li.english{
-    padding: 5px;
-  }
-  li.white > *{
-    float: right;
-  }
-  li.english{
-    border-right: 1px solid grey;
-    padding: 5px;
-    float: left;
-  }
+  
   .container-white{
     width: 90%;
     height: 100%;
