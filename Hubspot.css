@@ -53,7 +53,7 @@ section{
   }
 
 .container-lightblue{
-  width: 80%;
+  width: 90%;
   height: 100%;
   margin: auto;
   color:#3c4859;
@@ -84,12 +84,10 @@ section{
     border-left: 1px solid #3c4859;
   }
   button{
-    display: inline-block;
     background-color: #ff7a59;
     color: white;
     padding: 5px;
     border-radius: 5px;
-    box-shadow:  none;
     border: none;
   }
   div.block-down > *{
@@ -107,56 +105,17 @@ section{
     float: left;
   }
   .container-white{
-    width: 80%;
+    width: 90%;
     height: 100%;
     margin: auto;
 
     }
 
-  .container-white-left{
-    width: 40%;
+  .container-white-left, .container-white-right{
+    width: 50%;
     height: 100%;
     float: left;
-    text-align: left;
-  }
-  .container-white-left::after{
-    clear: both;
-    content: "";
-    display: table;
-  }
-  .container-white::after{
-    clear: both;
-    content: "";
-    display: table;
-  }
-
-  .container-white-right {
-    width: 60%;
-    height: 100%;
-    color: #3c4859;
-    float: right;
-  }
-  .container-white-right::after {
-    clear: both;
-    content: "";
-    display: table;
-  }
-  .container-white-right > ul > * {
-    width: 16.6667%;
-    height: 100%;
-    float: left;
-    position: relative;
-    left: 40px;
-    list-style-type: none;
-}
-
-  li.white{
-    padding-right: 30px;
-
-  }
-  li.white{
-    color: #3c4859;
-  }
+    }
    #hubspot{
     background-color: #ff7a59;
     padding: 5px;
