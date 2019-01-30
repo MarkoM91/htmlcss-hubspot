@@ -74,6 +74,24 @@ section{
     width: 40%;
     text-align: right;
   }
+  .container-lightblue-right > ul > * {
+    width: 50%;
+    height: 100%;
+    float: left;
+    position: relative;
+    left: 40px;
+    list-style-type: none;
+}
+  .container-lightblue-right::after{
+    clear: both;
+    content: "";
+    display: table;
+}
+  .container-lightblue::after{
+    clear: both;
+    content: "";
+    display: table;
+}
   #sales{
     border-left: 1px solid #3c4859;
   }
@@ -104,6 +122,7 @@ section{
     width: 80%;
     height: 100%;
     margin: auto;
+    
     }
 
   .container-white-left{
