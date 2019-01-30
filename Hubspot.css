@@ -109,22 +109,38 @@ section{
   .container-white-left{
     width: 40%;
     height: 100%;
-  }
-  .container-white-left > *{
     float: left;
-    height: 100%;
+    text-align: left;
   }
+  .container-white-left::after{
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .container-white::after{
+    clear: both;
+    content: "";
+    display: table;
+  }
+
   .container-white-right {
     width: 60%;
     height: 100%;
     color: #3c4859;
-  }
-   .container-white-right > ul > *{
     float: right;
-    height: 100%;
-    color: #3c4859;
-    width: 16.6667%;
+    text-align: right;
   }
+  .container-white-right::after {
+    clear: both;
+    content: "";
+    display: table;
+  }
+  .container-white-right > ul > * {
+    width: 16.6667%;
+    height: 100%;
+    float: left;
+}
+
   li.white{
     padding-right: 30px;
 
