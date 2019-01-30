@@ -53,7 +53,7 @@ section{
   }
 
 .container-lightblue{
-  width: 90%;
+  width: 100%;
   height: 100%;
   margin: auto;
   color:#3c4859;
@@ -133,11 +133,7 @@ section{
     text-align: center;
     margin: auto;
   }
-  .navbar-right-white::after{
-    clear: both;
-    content: "";
-    display: table;
-  }
+
   div.sky-blue  {
 width: 100%;
 text-align: left;
@@ -145,24 +141,26 @@ padding: 100px;
 background-color: #279AF1;
 color: white;
 }
-  div.sky-blue > div.sky{
-  width: 40%;
+  .sky{
+  width: 50%;
+  padding: 100px 0;
 
   }
-  div.sky-blue > div.sky> h1{
+  .sky> h1{
     font-size:  3.4375rem;
-    margin-bottom: 50px;
+
   }
-  div.sky-blue > div.sky > p{
-          font-size:  1em;
-          margin-bottom: 50px;
+  .sky > p{
+     font-size:  1em;
+     margin-bottom: 50px;
+     margin-top: 50px;
   }
  #button-sky{
-            background-color: white;
-            margin-bottom: 50px;
-            color: #3c4859;
-            padding: 30px 50px 30px;
-            border-radius: 5px;
+      background-color: white;
+      margin-bottom: 50px;
+      color: #3c4859;
+      padding: 30px 50px 30px;
+      border-radius: 5px;
   }
 .powerful{
   width: 100%;
