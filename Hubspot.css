@@ -463,12 +463,13 @@ list-style-type: none;
 text-align: center;
 font-size: 20px;
 margin: auto;
-padding: 2px;
+padding: 9px;
 }
 
 .container-languages{
   width: 50%;
   margin: auto;
+  margin-top: 40px;
 }
 .container-languages > *{
   width: 16.6667%;
