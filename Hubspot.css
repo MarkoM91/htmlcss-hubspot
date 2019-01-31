@@ -461,8 +461,9 @@ section.blue{
   background-color: #33475b;
   color: #cbd6e2;
   margin-top: 50px;
-
-
+}
+section.blue h3{
+  color: white;
 }
 .rows{
   width: 88%;
@@ -487,6 +488,7 @@ section.blue{
 .colonne > ul > li{
   padding: 10px;
   list-style-type: none;
+  
 }
 #first{
   font-weight: 700;
