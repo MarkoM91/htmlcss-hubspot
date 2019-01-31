@@ -8,8 +8,6 @@
   width:100%;
   height: 100%;
   background-color: #3c4859;
-  height: 60px;
-  width: 100%;
   text-align: center;
   line-height: 60px;
   border-top: 3px solid orange;
@@ -98,8 +96,10 @@ section{
     width: 90%;
     height: 100%;
     margin: auto;
+    position: sticky;
+    top: 0;
 
-    }
+  }
 
   .container-white-left, .container-white-right{
     width: 50%;
@@ -374,7 +374,7 @@ div.sky-blue1   p{
 
 
 .row > *{
-  width: 33%;
+  width: calc(100% / 3);
 }
 .sky-blue{
 
