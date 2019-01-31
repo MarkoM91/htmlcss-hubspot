@@ -156,7 +156,6 @@ color: white;
   }
 .content{
   width: 100%;
-  border: 1px solid black;
   margin: auto;
   background-color: #f5f8fa;
 }
@@ -164,7 +163,6 @@ color: white;
   width: 75%;
   margin: auto;
   text-align: center;
-  border: 1px solid black;
   background-color: white;
 }
 .top > img {
@@ -191,7 +189,6 @@ color: white;
   float: left;
   height: 100%;
   width: 33.3333%;
-  border: 1px solid black;
 }
 .end img{
   width: 233px;
