@@ -53,7 +53,7 @@ section{
   }
 
 .container-lightblue{
-  width: 100%;
+  width: 90%;
   height: 100%;
   margin: auto;
   color:#3c4859;
@@ -93,7 +93,7 @@ section{
   div.block-down > *{
     margin-bottom: 10px;
   }
-  
+
   .container-white{
     width: 90%;
     height: 100%;
@@ -123,7 +123,11 @@ section{
     text-align: center;
     margin: auto;
   }
-
+  .navbar-right-white::after{
+    clear: both;
+    content: "";
+    display: table;
+  }
   div.sky-blue  {
 width: 100%;
 text-align: left;
@@ -131,108 +135,89 @@ padding: 100px;
 background-color: #279AF1;
 color: white;
 }
-  .sky{
-  width: 50%;
-  padding: 100px 0;
+  div.sky-blue > div.sky{
+  width: 40%;
 
   }
-  .sky> h1{
+  div.sky-blue > div.sky> h1{
     font-size:  3.4375rem;
-
+    margin-bottom: 50px;
   }
-  .sky > p{
-     font-size:  1em;
-     margin-bottom: 50px;
-     margin-top: 50px;
+  div.sky-blue > div.sky > p{
+          font-size:  1em;
+          margin-bottom: 50px;
   }
  #button-sky{
-      background-color: white;
-      margin-bottom: 50px;
-      color: #3c4859;
-      padding: 30px 50px 30px;
-      border-radius: 5px;
+            background-color: white;
+            margin-bottom: 50px;
+            color: #3c4859;
+            padding: 30px 50px 30px;
+            border-radius: 5px;
   }
-.powerful{
+.content{
   width: 100%;
-  text-align: center;
-  background-color: #E9EAEA;
-  padding-bottom: 50px;
-  color: #33475b;
+  border: 1px solid black;
+  margin: auto;
+  background-color: grey;
 }
-.powerful > *{
-  margin-bottom: 50px;
-}
-.powerful > img{
-  width: 260px;
-  height: 194px;
-  margin-top: 100px;
-}
-.powerful > img, h2, p{
-  margin-bottom: 20px;
-}
-.block{
+.top, .body, .end{
   width: 75%;
   margin: auto;
-}
-#block-img{
-  width: 260px;
-  height: 194px;
-}
-.block1{
+  text-align: center;
+  border: 1px solid black;
   background-color: white;
 }
-.block1 > *{
-  float: left;
-padding: 10px;
+.top > img {
+  width: 300px;
+  height: 224px;
 }
-.block1-left{
-  width: 39%;
-
+.body-left, .body-right{
+  float:left;
 }
-.block1-right{
-  width: 58%;
-  text-align: left;
-
+.body-left{
+  width: 30%;
+  height: 100%;
 }
-.block1::after{
-  clear: both;
-  content: "";
-  display: table;
+.body-right{
+  width: 70%;
+  height: 100%;
 }
-.nav-powerful > ul > li{
-  float: left;
-  margin: 15px;
-}
-.block2{
-  width: 100%;
-  margin-top: 20px;
-  background-color: white;
-
-}
-.block2 > *{
-  float: left;
+.body-nav > ul > li{
   width: 33.3333%;
-
+  float: left;
+  list-style-type: none;
 }
-#2{
+.end-left, .end-center, .end-right{
+  float: left;
+  height: 100%;
+  width: 33.3333%;
+  border: 1px solid black;
+}
+.end img{
   width: 233px;
   height: 150px;
 }
-.bloc2-left{
-  margin-right: 5px;
+.top{
+  height: 400px;
 }
-.bloc2-center{
-  margin: 0 5px 0;
+.body{
+  height: 300px;
 }
-.bloc2-right{
-  margin-left: 5px;
+.end{
+  text-align: center;
+  height: 600px;
+}
+.end::after{
+  clear: both;
+  content: "";
+  display: table;
 }
 
 
 div.sky-blue  {
 width: 100%;
 text-align: center;
-padding: 100px;
+padding: 150px;
 background-color: #279AF1;
 color: white;
 position: relative;
@@ -256,7 +241,7 @@ color: white;
 position: relative;
 display: inline-block;
 margin: auto;
-margin-top: 50px;
+
 }
 
 
