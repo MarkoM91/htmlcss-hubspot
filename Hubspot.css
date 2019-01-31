@@ -198,9 +198,10 @@ color: white;
   float: left;
   padding: 40px;
   height: 100%;
-  width: 33.3333%;
+  width: calc(100% / 3);
   border-radius: 8px;
 }
+
 .end img{
   display: block;
   margin: auto;
@@ -488,7 +489,7 @@ section.blue h3{
 .colonne > ul > li{
   padding: 10px;
   list-style-type: none;
-  
+
 }
 #first{
   font-weight: 700;
