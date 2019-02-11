@@ -18,9 +18,10 @@
   height: 100%;
   color: #33475b;
   float: left;
+  text-align: left;
   }
-.navbar >  ul > *{
-  float: left;
+.navbar >  ul > li{
+  display: inline-block;
   list-style-type: none;
   padding-right: 40px;
   color: white;
@@ -161,7 +162,7 @@ color: white;
   width: 100%;
   padding: 80px 0;
   margin: auto;
-  background-color: #f5f8fa;
+  background: #f5f8fa;
 }
 .top, .body, .end{
   width: 75%;
@@ -192,7 +193,7 @@ color: white;
   height: 100%;
 }
 .body-nav > ul > li{
-  width: 33.3333%;
+  width: calc(100% / 3);
   float: left;
   list-style-type: none;
   margin: 0 20px 0 0;
@@ -201,8 +202,12 @@ color: white;
   float: left;
   padding: 40px;
   height: 100%;
-  width: calc(100% / 3);
+  width: calc((100% / 3) - (80px / 3));
   border-radius: 8px;
+}
+
+.end-center{
+margin: 0 40px;
 }
 
 .end img{
@@ -366,7 +371,8 @@ div.sky-blue1   p{
 
 
 #skyblue-row{
-  border: 1px solid white;
+  border-right: 1px solid white;
+  border-bottom: 1px solid white;
   padding:  40px 0 40px;
   border: 1px solid white;
 }
@@ -379,9 +385,7 @@ div.sky-blue1   p{
 .row > *{
   width: calc(100% / 3);
 }
-.sky-blue{
 
-}
 .clearfix{
   clear: both;
   content: "";
@@ -530,8 +534,9 @@ h4{
   content: "";
   display: table;
 }
-.social > ul > li{
+.social  ul  >*  {
 height: 100%;
+width: calc(100% / 6);
 float: left;
 list-style-type: none;
 font-size: 20px;
@@ -548,7 +553,7 @@ right: 48px;
   margin-bottom: 40px;
 }
 .container-languages > *{
-  width: 16.6667%;
+  width: calc(100% / 6);
   font-weight: 500;
   font-size: 18px;
   padding: 5px;
