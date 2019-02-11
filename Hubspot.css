@@ -370,15 +370,27 @@ div.sky-blue1   p{
 
 
 
-#skyblue-row{
+.skyblue-row-top{
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   padding:  40px 0 40px;
-  border: 1px solid white;
 }
-#skyblue-row > img{
+.skyblue-row-top > img, .skyblue-row-bottom > img{
   width: 180px;
   height: 40px;
+}
+
+.skyblue-row-bottom{
+  border-right: 1px solid white;
+  padding:  40px 0 40px;
+}
+
+#top{
+  border-right:0;
+
+}
+ #bottom{
+ border: 0;
 }
 
 
