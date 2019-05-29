@@ -1,204 +1,272 @@
-*{
+* {
+
   box-sizing: border-box;
   margin: 0;
 }
 
-
 .nav{
+
   width:100%;
   height: 100%;
+
   background-color: #3c4859;
   text-align: center;
   line-height: 60px;
+
   border-top: 3px solid orange;
   margin: auto;
 }
+
 .container{
+
   width: 80vw;
   height: 100%;
+
   color: #33475b;
   float: left;
   text-align: left;
-  }
+}
+
 .navbar >  ul > li{
   display: inline-block;
   list-style-type: none;
+
   padding-right: 40px;
   color: white;
 }
 
 .icon > i.fab{
+
   color: orange;
   height:50px;
   width: 50px;
 }
+
 .nav::after{
+
   clear: both;
   content: "";
   display: table;
 }
+
 section{
+
   margin: auto;
   width: 100%;
-  }
+}
 
 .section{
+
   height: 80px;
   line-height: 80px;
+
   background-color: #EAF2F8;
   border: 1px solid #33475b;
+
   width:  100%;
   text-align: center;
-  }
+}
 
 .container-lightblue{
+
   width: 90%;
   height: 100%;
+
   margin: auto;
   color:#3c4859;
-  }
-  .container-lightblue-left, .container-lightblue-right {
-    float: left;
-    height: 100%;
-    width: 50%;
-
 }
-  .container-lightblue-left > span{
+
+.container-lightblue-left, .container-lightblue-right {
+
+  float: left;
+  height: 100%;
+  width: 50%;
+}
+
+.container-lightblue-left > span{
+
     padding: 0 15px 0;
 }
 
+.container-lightblue-right::after{
 
-
-  .container-lightblue-right::after{
-    clear: both;
-    content: "";
-    display: table;
+  clear: both;
+  content: "";
+  display: table;
 }
-  .container-lightblue::after{
-    clear: both;
-    content: "";
-    display: table;
+
+.container-lightblue::after{
+
+  clear: both;
+  content: "";
+  display: table;
 }
-  #sales{
-    border-left: 1px solid #3c4859;
-  }
-  button{
-    background-color: #ff7a59;
-    color: white;
-    padding: 5px;
-    border-radius: 5px;
-    border: none;
-  }
-  div.block-down > *{
-    margin-bottom: 10px;
-  }
 
-  .container-white{
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    position: sticky;
-    top: 0;
+#sales{
 
-  }
-
-  .container-white-left, .container-white-right{
-    width: 50%;
-    height: 100%;
-    float: left;
-    }
-    .container-white-right span{
-      padding: 0 30px;
-    }
-   #hubspot{
-    background-color: #ff7a59;
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
-  }
-  .right-white{
-    margin-left: 50px;
-  }
-  .section-white{
-    border: 1px solid #33475b;
-    height: 80px;
-    width:  100%;
-    line-height: 80px;
-    text-align: center;
-    margin: auto;
-  }
-  .navbar-right-white::after{
-    clear: both;
-    content: "";
-    display: table;
-  }
-  div.sky-blue  {
-width: 100%;
-text-align: left;
-padding: 100px;
-background-color: #279AF1;
-color: white;
+  border-left: 1px solid #3c4859;
 }
-  div.sky-blue > div.sky{
+
+button{
+
+  background-color: #ff7a59;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+}
+
+div.block-down > *{
+
+  margin-bottom: 10px;
+}
+
+.container-white{
+
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  position: sticky;
+  top: 0;
+}
+
+.container-white-left, .container-white-right{
+
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+
+.container-white-right span{
+
+  padding: 0 30px;
+}
+
+#hubspot{
+
+  background-color: #ff7a59;
+  padding: 5px;
+  border-radius: 5px;
+  color: white;
+}
+
+.right-white{
+
+  margin-left: 50px;
+}
+
+.section-white{
+
+  border: 1px solid #33475b;
+  height: 80px;
+  width:  100%;
+  line-height: 80px;
+  text-align: center;
+  margin: auto;
+}
+
+.navbar-right-white::after{
+
+  clear: both;
+  content: "";
+  display: table;
+}
+
+div.sky-blue  {
+
+  width: 100%;
+  text-align: left;
+  padding: 100px;
+  background-color: #279AF1;
+  color: white;
+}
+
+div.sky-blue > div.sky{
+
   width: 40%;
+}
 
-  }
-  div.sky-blue > div.sky> h1{
-    font-size:  3.4375rem;
-    margin-bottom: 50px;
-  }
-  div.sky-blue > div.sky > p{
-          font-size:  1em;
-          margin-bottom: 50px;
-  }
- #button-sky{
-            background-color: white;
-            margin-bottom: 50px;
-            color: #3c4859;
-            padding: 30px 50px 30px;
-            border-radius: 5px;
-  }
+div.sky-blue > div.sky> h1{
+
+  font-size:  3.4375rem;
+  margin-bottom: 50px;
+}
+
+div.sky-blue > div.sky > p{
+
+  font-size:  1em;
+  margin-bottom: 50px;
+}
+
+#button-sky{
+
+  background-color: white;
+  margin-bottom: 50px;
+  color: #3c4859;
+  padding: 30px 50px 30px;
+  border-radius: 5px;
+}
+
 .content{
+
   width: 100%;
   padding: 80px 0;
   margin: auto;
   background: #f5f8fa;
 }
+
 .top, .body, .end{
+
   width: 75%;
   margin: auto;
   text-align: center;
   background-color: white;
 }
+
 .top > img {
+
   width: 300px;
   height: 224px;
 }
+
 .top h2{
+
   font-size: 35px;
   margin: 30px 0;
 }
+
 .top p{
+
   padding: 0 100px;
 }
+
 .body-left, .body-right{
+
   float:left;
 }
+
 .body-left{
+
   width: 30%;
   height: 100%;
 }
+
 .body-right{
+
   width: 70%;
   height: 100%;
 }
+
 .body-nav > ul > li{
+
   width: calc(100% / 3);
   float: left;
   list-style-type: none;
   margin: 0 20px 0 0;
 }
+
 .end-left, .end-center, .end-right{
+
   float: left;
   padding: 40px;
   height: 100%;
@@ -207,16 +275,20 @@ color: white;
 }
 
 .end-center{
+
 margin: 0 40px;
 }
 
 .end img{
+
   display: block;
   margin: auto;
   width: 233px;
   height: 150px;
 }
+
 .end > div > h4{
+
   text-align: center;
   color: #33475b;
   margin-top: 20px;
@@ -224,52 +296,76 @@ margin: 0 40px;
 }
 
 .end > div > p{
+
   margin: 20px 0;
   font-size: 18px;
 }
+
 .end > div > span{
+
   margin: 20px 0;
   font-size: 20px;
   text-align: center;
 }
+
 .end > div > ul{
+
 list-style: none;
 }
+
 .end > div  ul  li{
+
 margin: 10px;
 }
+
 .end > div   li  i{
+
   color: #ff7a59;
   margin-right: 20px;
 }
+
 .end-right{
-  position: relative;
+
+position: relative;
 bottom: 20px;
 }
+
 .top{
+
   height: 400px;
   background: #f5f8fa;
 }
+
 .body{
+
   height: 300px;
   margin: 50px 0;
+
   margin: auto;
   padding: 0 100px;
   border-radius: 8px;
 }
+
 .body-right{
+
   text-align: left;
   position: relative;
   left: 50px;
 }
+
 .body-right h3{
+
   font-size: 25px;
   margin-bottom: 20px;
 }
+
 .body-right p{
+
   margin-bottom: 20px;
 }
+
 .body-right span{
+
   position: relative;
   display: inline-block;
   width: 100%;
@@ -277,19 +373,26 @@ bottom: 20px;
   font-size: 20px;
 }
 .body-right span:after{
+
   content: '';
+
   position: absolute;
   top: 10px;
   right: 0;
   width: 70%;
+
   height: 2px;
   background: lightgrey;
 }
+
 .body-nav ul{
+
   margin-top: 20px;
   list-style: none
 }
+
 .body-nav ul li i{
+
   margin-right: 10px;
   color: #ff7a59;
 }
@@ -299,116 +402,137 @@ bottom: 20px;
   text-align: center;
   height: 600px;
 }
+
 .end::after{
+
   clear: both;
   content: "";
   display: table;
 }
-
 
 div.sky-blue  {
 width: 100%;
 text-align: center;
 padding: 150px;
+
 background-color: #279AF1;
 color: white;
+
 position: relative;
 display: inline-block;
 margin: auto;
-
 }
 
-
 .block2::after{
+
   clear: both;
   content: "";
   display: table;
 }
+
 div.sky-blue1  {
-width: 100%;
-text-align: center;
-padding: 100px;
-background-color: #279AF1;
-color: white;
-position: relative;
-display: inline-block;
-margin: auto;
+  width: 100%;
+  text-align: center;
 
+  padding: 100px;
+  background-color: #279AF1;
+  color: white;
+
+  position: relative;
+  display: inline-block;
+  margin: auto;
 }
-
 
 }
 div.sky-blue1   h1{
+
   font-size:  3.4375rem;
   margin-bottom: 50px;
 }
+
 div.sky-blue1   p{
-        font-size:  18px;
-        margin:30px 0 50px;
+
+  font-size:  18px;
+  margin:30px 0 50px;
 }
+
 .container-1{
+
   width: 55%;
   text-align: center;
   margin: auto;
   margin-bottom: 50px;
 }
+
 .container-2{
+
   width: 75%;
   text-align: center;
   margin: auto;
 }
 
  .container-2 > .row > * {
+
    float: left;
    width: 25%;
  }
+
  .container > .row::after{
+
    clear: both;
    content: "";
    display: table;
  }
 
-
-
 .skyblue-row-top{
+
   border-right: 1px solid white;
   border-bottom: 1px solid white;
   padding:  40px 0 40px;
 }
+
 .skyblue-row-top > img, .skyblue-row-bottom > img{
+
   width: 180px;
   height: 40px;
 }
 
 .skyblue-row-bottom{
+
   border-right: 1px solid white;
   padding:  40px 0 40px;
 }
 
 #top{
-  border-right:0;
 
+  border-right:0;
 }
+
  #bottom{
+
  border: 0;
 }
 
-
 .row > *{
+
   width: calc(100% / 3);
 }
 
 .clearfix{
+
   clear: both;
   content: "";
   display: table;
 }
+
 .section-white1{
+
   width: 75%;
   margin: auto;
 }
 
 .up > .half{
+
   float: left;
   width: 50%;
   text-align: left;
@@ -416,44 +540,57 @@ div.sky-blue1   p{
   margin-top: 50px;
   color: #33475b;
 }
+
 #h2{
+
   font-size: 48px;
   color: #33475b;
 }
 
 .box{
+
   float: left;
   width:25%;
   text-align: center;
   padding: 10px;
-
-
 }
+
 .box > img{
+
   height: 42px;
   width:74px;
 }
+
 .righthalf::after{
+
   clear: both;
   content: "";
   display: table;
 }
+
 .down{
+
   margin-top: 50px;
 }
+
 .down > .half-down{
+
   float: left;
   width: 50%;
   margin-top: 200px;
   position: relative;
   color: #33475b;
 }
+
 .down::after{
+
   clear: both;
   content: "";
   display: table;
 }
+
 #cinese{
+
   border-radius: 50%;
   height: 450px;
   width: 450px;
@@ -462,19 +599,26 @@ div.sky-blue1   p{
 }
 
 .lefthalf-down > *{
+
   padding: 30px 0 30px;
   text-align: left;
   margin-right: 50px;
 }
+
 .righthalf-down{
+
   text-align: center;
   position: relative;
   left: 50px;
 }
+
 button#free{
+
   text-align: left;
 }
+
 section.blue{
+
   width: 100%;
   text-align: center;
   margin: auto;
@@ -482,52 +626,71 @@ section.blue{
   color: #cbd6e2;
   margin-top: 50px;
 }
+
 section.blue h3{
+
   color: white;
 }
+
 .rows{
+
   width: 88%;
   margin: auto;
   text-align: left;
   padding-top: 50px;
 }
+
 .colonne{
+
   width: 25%;
   float: left;
 }
+
 .rows::after{
+
   clear: both;
   content: "";
   display: table;
 }
+
 .rows{
+
   background-color: #33475b;
   margin-top: 10px;
-
 }
+
 .colonne > ul > li{
+
   padding: 10px;
   list-style-type: none;
-
 }
+
 #first{
+
   font-weight: 700;
   color: white;
   font-size: 16px;
-
 }
+
 #button-cinese{
+
   text-align: left;
   position: relative;
   padding: 10px;
 }
+
 button{
+
   padding: 10px;
 }
+
 h4{
+
   margin: 5px 0 5px;
 }
+
 #contact{
+
   width: 174px;
   height: 33px;
   background-color: #E9EAEA;
@@ -535,75 +698,114 @@ h4{
   margin-top:  10px;
   border-radius: 5px;
 }
+
 .social{
+
   width: 100%;
   margin: auto;
   margin-top: 30px;
   text-align: left;
 }
+
 .social::after{
+
   clear: both;
   content: "";
   display: table;
 }
+
 .social  ul  >*  {
-height: 100%;
-width: calc(100% / 6);
-float: left;
-list-style-type: none;
-font-size: 20px;
-margin: auto;
-padding: 7px;
-position: relative;
-right: 48px;
+
+  height: 100%;
+  width: calc(100% / 6);
+  float: left;
+  list-style-type: none;
+  font-size: 20px;
+  margin: auto;
+  padding: 7px;
+  position: relative;
+  right: 48px;
 }
 
 .container-languages{
+
   width: 50%;
   margin: auto;
   margin-top:40px ;
   margin-bottom: 40px;
 }
+
 .container-languages > *{
+
   width: calc(100% / 6);
   font-weight: 500;
   font-size: 18px;
   padding: 5px;
 }
+
 i.fab{
+
   color: #cbd6e2;
 }
+
 .footer{
+
   margin-top: 50px;
   border-top: 1px solid white;
   width: 80%;
   margin:auto;
   text-align: center;
 }
+
 .footer > * {
+
   margin-top: 40px;
 }
+
 .footer-left{
+
   width: 50%;
   float: left;
   text-align: left;
 }
+
 .footer-right{
+
   width: 50%;
   float: right;
   text-align: right;
   }
+
 .footer::after{
+
   clear: both;
   content: "";
   display: table;
 }
+
  .footer-right-text > *{
+
    padding: 15px;
    font-size: 20px;
  }
+
  .up::after{
+
    clear: both;
    content: "";
    display: table;
+ }
+
+ @media screen and (max-width: 768px){
+
+
+ }
+
+ @media screen and (min-width: 768px) and (max-width: 992px){
+
+
+ }
+
+ @media screen and (min-width: 992px){
+
  }
