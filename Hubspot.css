@@ -824,6 +824,7 @@ i.fab{
     }
 
     div.body div.body-right {
+
       padding: 0;
       position: relative;
       left: 0;
@@ -838,6 +839,7 @@ i.fab{
     }
 
     div.end-right {
+
       padding-bottom: 150px;
     }
 
@@ -851,6 +853,40 @@ i.fab{
 
       border: none;
       width: 100%;
+    }
+
+    div.up > .half {
+      text-align: center;
+    }
+
+    div.half.lefthalf {
+      width: 100%;
+    }
+
+    div.half.righthalf {
+
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    div.box {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    div.box img {
+
+      margin-bottom: 50px;
+    }
+
+    div.down {
+      margin-top: 150px;
     }
  }
 
