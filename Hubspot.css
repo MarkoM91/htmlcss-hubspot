@@ -410,18 +410,6 @@ bottom: 20px;
   display: table;
 }
 
-div.sky-blue  {
-width: 100%;
-text-align: center;
-padding: 150px;
-
-background-color: #279AF1;
-color: white;
-
-position: relative;
-display: inline-block;
-margin: auto;
-}
 
 .block2::after{
 
@@ -815,7 +803,10 @@ i.fab{
      display: none;
    }
 
-   
+    div.sky-blue  div.sky{
+      width: 100%;
+      text-align: center;
+    }
    }
  }
 
