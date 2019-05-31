@@ -807,7 +807,39 @@ i.fab{
       width: 100%;
       text-align: center;
     }
-   }
+
+    div.top {
+
+      margin-bottom: 150px;
+    }
+
+    div.body {
+      padding: 150px;
+    }
+
+    div.body-left, div.body-right {
+      width: 100%;
+      margin-bottom: 250px;
+
+    }
+
+    div.body div.body-right {
+      padding: 0;
+      position: relative;
+      left: 0;
+      padding-bottom: 150px;
+    }
+
+    div.end-left, div.end-center, div.end-right {
+
+      width: 100%;
+      padding-top: 400px;
+      margin: 0;
+    }
+
+    div.end-right {
+      padding-bottom: 150px;
+    }
  }
 
  @media screen and (min-width: 768px) and (max-width: 992px){
