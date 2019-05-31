@@ -888,6 +888,30 @@ i.fab{
     div.down {
       margin-top: 150px;
     }
+
+    div.half-down.lefthalf-down {
+
+      width: 100%;
+    }
+
+    div.half-down.lefthalf-down  * {
+
+      margin-right: 0;
+      text-align: center;
+    }
+
+    div.half-down.righthalf-down {
+
+      width: 100%;
+    }
+
+    div.half-down.righthalf-down  * {
+
+      margin-right: 0;
+      text-align: center;
+      position: relative;
+      right: 50px;
+    }
  }
 
  @media screen and (min-width: 768px) and (max-width: 992px){
