@@ -860,14 +860,16 @@ i.fab{
 
     div.body-left  img {
 
-      padding-left: 80px ;
+      position: relative;
+      bottom: 100px;
+      left: 50px;
     }
 
     div.body-left button {
 
-      margin-left: 150px;
+      margin-left: 130px;
       position: relative;
-      top: 50px;
+      bottom: 70px;
     }
 
     div.body div.body-right {
@@ -961,6 +963,8 @@ i.fab{
     div.half-down.lefthalf-down {
 
       width: 100%;
+      position: relative;
+      bottom: 50px;
     }
 
     div.half-down.lefthalf-down  * {
@@ -1084,15 +1088,19 @@ i.fab{
       width: 250px;
     }
 
-    div.body-left  img {
+    .body-left >  img {
 
-      padding-left: 250px ;
+      position: relative;
+      padding-left: 50px;
+      left: 150px;
+      bottom: 100px;
     }
 
     div.body-left button {
 
       position: relative;
-      left: 250px;
+      left: 200px;
+      bottom: 100px;
       margin-top: 30px;
     }
 
@@ -1183,6 +1191,8 @@ i.fab{
     div.half-down.lefthalf-down {
 
       width: 100%;
+      position: relative;
+      border-bottom: 50px;
     }
 
     div.half-down.lefthalf-down  * {
@@ -1194,6 +1204,8 @@ i.fab{
     div.half-down.righthalf-down {
 
       width: 100%;
+      position: relative;
+      border-bottom: 50px;
     }
 
     div.half-down.righthalf-down  * {
