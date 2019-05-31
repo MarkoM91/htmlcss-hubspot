@@ -257,10 +257,13 @@ div.sky-blue > div.sky > p{
   height: 100%;
 }
 
+div.body-nav ul {
+
+  display: flex;
+}
+
 .body-nav > ul > li{
 
-  width: calc(100% / 3);
-  float: left;
   list-style-type: none;
   margin: 0 20px 0 0;
 }
@@ -829,7 +832,18 @@ i.fab{
       position: relative;
       left: 0;
       padding-bottom: 150px;
+      text-align: center;
     }
+
+    div.body div.body-right  span{
+
+      display: none;
+    }
+
+    div.body-nav  {
+
+      display: none;
+     }
 
     div.end-left, div.end-center, div.end-right {
 
