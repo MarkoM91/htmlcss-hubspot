@@ -864,6 +864,8 @@ i.fab{
     div.body-left button {
 
       margin-left: 150px;
+      position: relative;
+      top: 50px;
     }
 
     div.body div.body-right {
@@ -880,6 +882,11 @@ i.fab{
       display: none;
     }
 
+    div.body div.body-right  p{
+
+      padding: 0 75px;
+    }
+
     div.body-nav  {
 
       display: none;
@@ -890,6 +897,12 @@ i.fab{
       width: 100%;
       padding-top: 150px;
       margin: 0;
+    }
+    div.end-left button, div.end-center button, div.end-right button{
+
+      margin-top: 30px;
+      position: relative;
+      left: 15px;
     }
 
     div.end-right {
@@ -981,11 +994,14 @@ i.fab{
       text-align: center;
     }
 
+    div.colonne ul {
+
+      padding-left: 20px;
+     }
+
     div.colonne ul li{
 
       display: none;
-
-
      }
 
     div.colonne h3 {
@@ -997,11 +1013,24 @@ i.fab{
 
         width: 100%;
         text-align: center;
+        margin-left: 28px;
     }
+
+    .container-languages {
+      position: relative;
+      left: 15px;
+    }
+
+    .footer-right-text {
+
+        width: 100%;
+        text-align: center;
+        margin-left: 28px;
+      }
 
  }
 
- @media screen and (min-width: 768px) and (max-width: 992px){
+ @media screen and (min-width: 768px) and (max-width: 1100px){
    div.hamburger {
 
      display: block;
@@ -1215,6 +1244,6 @@ i.fab{
 
  }
 
- @media screen and (min-width: 992px){
+ @media screen and (min-width: 1100px){
 
  }
