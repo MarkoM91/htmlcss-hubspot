@@ -1055,12 +1055,14 @@ i.fab{
 
     div.body-left  img {
 
-      padding-left: 80px ;
+      padding-left: 250px ;
     }
 
     div.body-left button {
 
-      margin-left: 150px;
+      position: relative;
+      left: 250px;
+      margin-top: 30px;
     }
 
     div.body div.body-right {
@@ -1068,7 +1070,7 @@ i.fab{
       padding: 0;
       position: relative;
       left: 0;
-      padding-bottom: 125px;
+      padding:0 100px 125px 100px;
       text-align: center;
     }
 
@@ -1087,6 +1089,13 @@ i.fab{
       width: 100%;
       padding-top: 150px;
       margin: 0;
+    }
+
+    div.end-left button, div.end-center button, div.end-right button {
+
+      position: relative;
+      left: 20px;
+      margin-top: 30px;
     }
 
     div.end-right {
@@ -1169,7 +1178,7 @@ i.fab{
       height: 250px;
       width: 250px;
       position: relative;
-      bottom: 50px;
+      bottom: 70px;
     }
 
     div.colonne {
@@ -1194,6 +1203,13 @@ i.fab{
 
         width: 100%;
         text-align: center;
+        margin-left: 28px;
+    }
+     .footer-right-text {
+
+        width: 100%;
+        text-align: center;
+        margin-left: 28px;
     }
 
 
