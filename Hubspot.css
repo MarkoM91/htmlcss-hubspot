@@ -823,7 +823,7 @@ i.fab{
    .container-white-left img{
 
      float: left;
-     margin-top: 20px; 
+     margin-top: 20px;
    }
 
    .container-white-right {
@@ -1002,6 +1002,199 @@ i.fab{
  }
 
  @media screen and (min-width: 768px) and (max-width: 992px){
+   div.hamburger {
+
+     display: block;
+     font-size: 30px;
+     color: orange;
+   }
+
+   .container .navbar {
+     display: none;
+   }
+
+   .section  {
+     display: none;
+   }
+
+   .container-white-left img{
+
+     float: left;
+     margin-top: 20px;
+   }
+
+   .container-white-right {
+     display: none;
+   }
+
+    div.sky-blue  div.sky{
+      width: 100%;
+      text-align: center;
+    }
+
+    div.top {
+
+      margin-bottom: 150px;
+    }
+
+    div.body {
+      padding: 125px 0;
+    }
+
+    div.body-left, div.body-right {
+      width: 100%;
+      margin-bottom: 250px;
+
+    }
+
+    div.body-left  {
+
+      height: 250px;
+      width: 250px;
+    }
+
+    div.body-left  img {
+
+      padding-left: 80px ;
+    }
+
+    div.body-left button {
+
+      margin-left: 150px;
+    }
+
+    div.body div.body-right {
+
+      padding: 0;
+      position: relative;
+      left: 0;
+      padding-bottom: 125px;
+      text-align: center;
+    }
+
+    div.body div.body-right  span{
+
+      display: none;
+    }
+
+    div.body-nav  {
+
+      display: none;
+     }
+
+    div.end-left, div.end-center, div.end-right {
+
+      width: 100%;
+      padding-top: 150px;
+      margin: 0;
+    }
+
+    div.end-right {
+
+      padding-bottom: 150px;
+    }
+
+    div.container-2 div.skyblue-row-top {
+
+      border: none;
+      width: 100%;
+    }
+
+    div.container-2 div.skyblue-row-bottom {
+
+      border: none;
+      width: 100%;
+    }
+
+    div.up > .half {
+      text-align: center;
+    }
+
+    div.half.lefthalf {
+      width: 100%;
+    }
+
+    div.half.righthalf {
+
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    div.box {
+
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+    }
+
+    div.box img {
+
+      margin-bottom: 50px;
+    }
+
+    div.down {
+      margin-top: 150px;
+    }
+
+    div.half-down.lefthalf-down {
+
+      width: 100%;
+    }
+
+    div.half-down.lefthalf-down  * {
+
+      margin-right: 0;
+      text-align: center;
+    }
+
+    div.half-down.righthalf-down {
+
+      width: 100%;
+    }
+
+    div.half-down.righthalf-down  * {
+
+      margin-right: 0;
+      text-align: center;
+      position: relative;
+      right: 50px;
+    }
+
+    #cinese {
+
+      height: 250px;
+      width: 250px;
+      position: relative;
+      bottom: 50px;
+    }
+
+    div.colonne {
+
+      width: 100%;
+      text-align: center;
+    }
+
+    div.colonne ul li{
+
+      display: none;
+
+
+     }
+
+    div.colonne h3 {
+
+      padding-bottom: 30px;
+    }
+
+    .footer-left, .footer-right {
+
+        width: 100%;
+        text-align: center;
+    }
 
 
  }
