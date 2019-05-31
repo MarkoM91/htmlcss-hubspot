@@ -912,6 +912,37 @@ i.fab{
       position: relative;
       right: 50px;
     }
+
+    #cinese {
+
+      height: 250px;
+      width: 250px;
+    }
+
+    div.colonne {
+
+      width: 100%;
+      text-align: center;
+    }
+
+    div.colonne ul li{
+
+      display: none;
+
+
+     }
+
+    div.colonne h3 {
+
+      padding-bottom: 30px;
+    }
+
+    .footer-left, .footer-right {
+
+        width: 100%;
+        text-align: center;
+    }
+
  }
 
  @media screen and (min-width: 768px) and (max-width: 992px){
