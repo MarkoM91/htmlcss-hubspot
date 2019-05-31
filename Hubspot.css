@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+header {
+  position: relative;
+}
+
 .nav{
 
   width:100%;
@@ -15,6 +19,13 @@
 
   border-top: 3px solid orange;
   margin: auto;
+}
+
+div.hamburger {
+  position: absolute;
+  top: 20px;
+  right: 25px;
+  display: none;
 }
 
 .container{
@@ -794,12 +805,25 @@ i.fab{
 
  @media all and (max-width: 768px){
 
+   div.hamburger {
+
+     display: block;
+     font-size: 30px;
+     color: orange;
+   }
+
    .container .navbar {
      display: none;
    }
 
    .section  {
      display: none;
+   }
+
+   .container-white-left img{
+
+     float: left;
+     margin-top: 20px; 
    }
 
    .container-white-right {
