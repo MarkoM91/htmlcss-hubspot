@@ -801,9 +801,19 @@ i.fab{
    display: table;
  }
 
- @media screen and (max-width: 768px){
+ @media all and (max-width: 768px){
 
+   .container .navbar {
+     display: none;
+   }
 
+   .section  {
+     display: none;
+   }
+
+   .container-white-right {
+     display: none;
+   }
  }
 
  @media screen and (min-width: 768px) and (max-width: 992px){
