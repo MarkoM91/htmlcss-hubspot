@@ -840,6 +840,18 @@ i.fab{
     div.end-right {
       padding-bottom: 150px;
     }
+
+    div.container-2 div.skyblue-row-top {
+
+      border: none;
+      width: 100%;
+    }
+
+    div.container-2 div.skyblue-row-bottom {
+
+      border: none;
+      width: 100%;
+    }
  }
 
  @media screen and (min-width: 768px) and (max-width: 992px){
