@@ -1,9 +1,9 @@
 # htmlcss-hubspot
 
-htmlcss-hubspot is a responsive copy of Hubspot Homepage
+htmlcss-hubspot is a responsive clone of Hubspot Homepage
 
 ## Technologies Used:
 
 HTML/CSS
 
-## Project Screenshots
+## Project's Screenshots
