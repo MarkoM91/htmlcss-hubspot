@@ -7,3 +7,7 @@ htmlcss-hubspot is a responsive clone of Hubspot Homepage
 HTML/CSS
 
 ## Project's Screenshots
+
+<hr></hr>
+
+![](hubspot.png)
