@@ -12,4 +12,4 @@ HTML/CSS
 
 ![](hubspot3.png)
 
-![](ggg.png)
+![](aaa.png)
