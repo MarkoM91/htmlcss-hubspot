@@ -10,4 +10,4 @@ HTML/CSS
 
 <hr></hr>
 
-![](hubspot1.png)
+![](hubspot2.png)
